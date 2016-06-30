@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Личный сайт студента GeekBrains</title>
+	<link rel="stylesheet" href="style.css">
+
+		<script type="text/javascript">
+
+		function Play(){
+		
+				 	var answer = parseInt(Math.random()*100);
+			var step = 1;
+			
+			while(true) {
+				if (step%2!=0) {
+					alert ("Попытка игрока №1")
+				} else {
+					alert ("Попытка игрока №2")
+
+				}
+				var number = parseInt(prompt("Введите ваш вариант ответа"));
+
+
+				if (number==answer){
+					alert ("Вы угадали!");
+					break;
+				} else if (number<answer){
+					alert ("Ваше число слишком маленькое");
+					step++;
+				} else if (number>answer) {
+					alert ("Ваше число слишком большое");
+					step++;
+				}
+			}
+		}
+		</script>
+		
+</head>
+<body>
+		<div id="header">
+			<a id="selected" href="index.html">Главная</a><span>/</span>
+			<a href="загадки.html">Загадки</a><span>/</span>
+			<a href="угадай1.html">Угадайка</a><span>/</span>
+			<a href="угадай.html">Угадайка мультиплеер</a>
+		</div>		
+		
+		<div id="content">	
+	<h1>Угадай-ка Мультиплеер</h1>
+	
+		
+		<div id="box">
+			<h2>
+			Игра для двух игроков. Нужно угадать число, загаданное компьютером.
+			</h2>	
+			
+	
+
+				<a href="#" onclick="Play();"> Начать игру</a>
+				
+
+	
+			</div>
+		</div>
+	</div>
+		
+	<div id="footer">
+		Copyright © 2016 <a href="https://geekbrains.ru/" target="_blank">GeekBrains</a>
+
+	
+
+</body>
+</html>
+			
+	
+	
