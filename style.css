@@ -136,7 +136,7 @@ body {
     margin-bottom: 12px;
 }
 
-#content  a {
+#content #box  a {
     display: block;
     float: left;
     background-color:  #8cbbd3;
