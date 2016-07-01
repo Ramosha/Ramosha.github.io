@@ -136,7 +136,7 @@ body {
     margin-bottom: 12px;
 }
 
-#maintext #box   {
+#maintext #box a  {
     display: block;
     float: left;
     background-color:  #8cbbd3;
@@ -162,7 +162,7 @@ body {
     color: #a4a4a4;
     font-size: 20px;
     font-weight: 100;
-    line-height: 140px;
+    line-height: 100px;
 }
 
 
