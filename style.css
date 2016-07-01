@@ -136,7 +136,7 @@ body {
     margin-bottom: 12px;
 }
 
-#maintext #box  a {
+#maintext #box   {
     display: block;
     float: left;
     background-color:  #8cbbd3;
