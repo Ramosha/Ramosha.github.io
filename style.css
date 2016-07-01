@@ -136,7 +136,7 @@ body {
     margin-bottom: 12px;
 }
 
-#content #box a {
+#content  a {
     display: block;
     float: left;
     background-color:  #8cbbd3;
@@ -158,13 +158,11 @@ body {
     min-width: 1920px;
     height: 140px;
     margin: 0 auto;
-    
+    text-align: center;
     color: #a4a4a4;
     font-size: 20px;
     font-weight: 100;
     line-height: 140px;
 }
 
-#footer a {
-    color: inherit;
-}
+
